@@ -4,6 +4,7 @@ import NextTopLoader from 'nextjs-toploader';
 import Header from '@/components/Header';
 
 import './globals.css';
+import Footer from '@/components/Footer';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -33,7 +34,10 @@ export default function RootLayout({
       >
         <NextTopLoader showSpinner={false} />
         <Header />
-        {children}
+        <main className='h-[80vh] flex flex-col gap-[32px] row-start-2 items-center sm:items-start'>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
