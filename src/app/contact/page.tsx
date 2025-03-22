@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return <div className=''>ContactPage</div>;
 };
 
 export default ContactPage;
