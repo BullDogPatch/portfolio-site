@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Desktop Links */}
           <div className='hidden md:flex items-center space-x-8'>
             <NavLink
-              href='/about'
+              href='/about-me'
               activeClassName='underline text-blue-500'
               nonActiveClassName='text-gray-600 hover:text-blue-500'
               className='px-2 py-2 rounded-md transition-all duration-200'
@@ -28,7 +28,7 @@ const Navbar = () => {
               About Me
             </NavLink>
             <NavLink
-              href='/contact'
+              href='/contact-me'
               activeClassName='underline text-blue-500'
               nonActiveClassName='text-gray-600 hover:text-blue-500'
               className='px-2 py-2 rounded-md transition-all duration-200'
@@ -77,7 +77,7 @@ const Navbar = () => {
         <div className='md:hidden bg-[rgba(10,10,10,0.9)]'>
           <div className='px-2 pt-2 pb-3 space-y-1'>
             <NavLink
-              href='/about'
+              href='/about-me'
               activeClassName='underline text-blue-500'
               nonActiveClassName='text-gray-600 hover:text-blue-500'
               className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700'
@@ -86,7 +86,7 @@ const Navbar = () => {
               About Me
             </NavLink>
             <NavLink
-              href='/contact'
+              href='/contact-me'
               activeClassName='underline text-blue-500'
               nonActiveClassName='text-gray-600 hover:text-blue-500'
               className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700'
