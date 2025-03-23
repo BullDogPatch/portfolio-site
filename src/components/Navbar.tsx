@@ -7,6 +7,8 @@ import Link from 'next/link';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const handleClick = () => setMenuOpen((prev) => !prev);
+
   return (
     <nav className='fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg'>
       <div className='max-w-5xl mx-auto px-4'>
@@ -38,7 +40,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <div className='md:hidden'>
             <button
-              onClick={() => setMenuOpen((prev) => !prev)}
+              onClick={handleClick}
               className='text-gray-300 focus:outline-none cursor-pointer'
               aria-label='Toggle menu'
             >
@@ -79,6 +81,7 @@ const Navbar = () => {
               activeClassName='underline text-blue-500'
               nonActiveClassName='text-gray-600 hover:text-blue-500'
               className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700'
+              handleClick={handleClick}
             >
               About Me
             </NavLink>
@@ -87,6 +90,7 @@ const Navbar = () => {
               activeClassName='underline text-blue-500'
               nonActiveClassName='text-gray-600 hover:text-blue-500'
               className='block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700'
+              handleClick={handleClick}
             >
               Contact Me
             </NavLink>

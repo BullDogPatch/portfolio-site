@@ -8,6 +8,7 @@ interface NavLinkProps {
   activeClassName: string;
   nonActiveClassName: string;
   className?: string;
+  handleClick?: () => void;
   rest?: React.AnchorHTMLAttributes<HTMLAnchorElement>;
 }
 
@@ -17,6 +18,7 @@ const NavLink = ({
   activeClassName,
   nonActiveClassName,
   className = '',
+  handleClick,
   ...rest
 }: NavLinkProps) => {
   const pathname = usePathname();
@@ -27,7 +29,7 @@ const NavLink = ({
   } ${className}`;
 
   return (
-    <Link href={href} className={newClassName} {...rest}>
+    <Link href={href} className={newClassName} {...rest} onClick={handleClick}>
       {children}
     </Link>
   );
