@@ -7,7 +7,7 @@ const AboutPage = () => {
         Hi, I&apos;m Craig Clayton 👋
       </h2>
       <p className='text-gray-300 leading-relaxed mb-6'>
-        I'm a passionate{' '}
+        I&apos;m a passionate{' '}
         <span className='font-semibold text-blue-400'>front-end developer</span>{' '}
         who loves crafting sleek, user-friendly web experiences. With a strong
         focus on{' '}
