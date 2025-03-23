@@ -101,7 +101,7 @@ const AboutPage = () => {
         </li>
       </ul>
 
-      <h2 className='text-2xl font-semibold mb-2'>Let's Connect! 🔗</h2>
+      <h2 className='text-2xl font-semibold mb-2'>Let&apos;s Connect! 🔗</h2>
       <div className='space-y-2'>
         <p>
           <span className='font-semibold text-gray-400'>GitHub:</span>
