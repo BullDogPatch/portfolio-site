@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <NextTopLoader showSpinner={false} />
         <Header />
-        <main className='h-[80vh] flex flex-col gap-[32px] row-start-2 items-center sm:items-start'>
+        <main className='flex flex-col gap-[32px] row-start-2 items-center sm:items-start'>
           {children}
         </main>
         <Footer />
