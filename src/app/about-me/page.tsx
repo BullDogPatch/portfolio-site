@@ -38,7 +38,7 @@ const AboutPage = () => {
         <h3 className='text-xl font-semibold text-blue-400'>
           🍪 Cookie Clicker Game
         </h3>
-        <p className='text-gray-800 mt-2 dark:text-gray-300'>
+        <p className='text-gray-300 mt-2 '>
           A fun, interactive clicker game where users earn cookies and unlock
           upgrades.
         </p>
@@ -86,16 +86,16 @@ const AboutPage = () => {
         Fun Facts About Me 🎶
       </h2>
       <ul className='list-disc list-inside text-gray-300 mb-6'>
-        <li>
+        <li className='text-gray-800 dark:text-gray-300'>
           I&apos;ve been a huge{' '}
           <span className='font-semibold text-blue-400'>Oasis</span> fan since
           the 1990s (Noel Gallagher is the greatest songwriter ever! 🎸)
         </li>
-        <li>
+        <li className='text-gray-800 dark:text-gray-300'>
           I love experimenting with UI animations and making sites feel smooth
           and interactive
         </li>
-        <li>
+        <li className='text-gray-800 dark:text-gray-300'>
           Debugging and helping others solve problems is one of my favorite
           parts of coding
         </li>
