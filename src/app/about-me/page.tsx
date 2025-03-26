@@ -114,7 +114,7 @@ const AboutPage = () => {
         <p>
           <span className='font-semibold text-gray-400'>GitHub:</span>
           <a
-            href='github.com/BullDogPatch'
+            href='https://www.github.com/BullDogPatch'
             target='_blank'
             className='text-blue-400 hover:underline ml-1'
           >
