@@ -80,11 +80,19 @@ const AboutPage = () => {
           <li>Mobile-friendly design</li>
         </ul>
         <div className='mt-3'>
-          <a href='#' className='text-blue-400 hover:underline'>
+          <a
+            href='https://github.com/BullDogPatch/week7-assignment'
+            target='_blank'
+            className='text-blue-400 hover:underline'
+          >
             View on GitHub
           </a>{' '}
           |
-          <a href='#' className='text-blue-400 hover:underline ml-2'>
+          <a
+            href='week7-assignment-gj2c.vercel.app'
+            target='_blank'
+            className='text-blue-400 hover:underline ml-2'
+          >
             Live Demo
           </a>
         </div>
