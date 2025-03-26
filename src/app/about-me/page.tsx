@@ -48,11 +48,19 @@ const AboutPage = () => {
           <li>Dark mode for a sleek UI</li>
         </ul>
         <div className='mt-3'>
-          <a href='#' className='text-blue-400 hover:underline'>
+          <a
+            href='https://github.com/BullDogPatch/week6-assignment'
+            target='_blank'
+            className='text-blue-400 hover:underline'
+          >
             View on GitHub
           </a>{' '}
           |
-          <a href='#' className='text-blue-400 hover:underline ml-2'>
+          <a
+            href='https://week6-assignment-cia0.onrender.com/'
+            target='_blank'
+            className='text-blue-400 hover:underline ml-2'
+          >
             Live Demo
           </a>
         </div>
@@ -105,13 +113,21 @@ const AboutPage = () => {
       <div className='space-y-2'>
         <p>
           <span className='font-semibold text-gray-400'>GitHub:</span>
-          <a href='#' className='text-blue-400 hover:underline ml-1'>
+          <a
+            href='github.com/BullDogPatch'
+            target='_blank'
+            className='text-blue-400 hover:underline ml-1'
+          >
             github.com/BullDogPatch
           </a>
         </p>
         <p>
           <span className='font-semibold text-gray-400'>LinkedIn:</span>
-          <a href='#' className='text-blue-400 hover:underline ml-1'>
+          <a
+            href='https://www.linkedin.com/in/craig-clayton-87a155196/'
+            target='_blank'
+            className='text-blue-400 hover:underline ml-1'
+          >
             https://www.linkedin.com/in/craig-clayton-87a155196/
           </a>
         </p>
