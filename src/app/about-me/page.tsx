@@ -89,7 +89,7 @@ const AboutPage = () => {
           </a>{' '}
           |
           <a
-            href='https://www.week7-assignment-gj2c.vercel.app'
+            href='https://week7-assignment-gj2c.vercel.app'
             target='_blank'
             className='text-blue-400 hover:underline ml-2'
           >
