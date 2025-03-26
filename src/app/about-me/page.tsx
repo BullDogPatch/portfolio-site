@@ -1,12 +1,12 @@
 const AboutPage = () => {
   return (
-    <div className='max-w-3xl mt-10 mx-auto px-6 py-12 text-white'>
+    <div className='max-w-3xl mt-10 mx-auto px-6 py-12'>
       <h1 className='text-4xl font-bold text-center mb-6'>About Me</h1>
 
       <h2 className='text-2xl font-semibold mb-2'>
         Hi, I&apos;m Craig Clayton 👋
       </h2>
-      <p className='text-gray-300 leading-relaxed mb-6'>
+      <p className='text-gray-800 leading-relaxed mb-6 dark:text-gray-300'>
         I&apos;m a passionate{' '}
         <span className='font-semibold text-blue-400'>front-end developer</span>{' '}
         who loves crafting sleek, user-friendly web experiences. With a strong
@@ -19,7 +19,7 @@ const AboutPage = () => {
       </p>
 
       <h2 className='text-2xl font-semibold mb-2'>My Developer Journey 🚀</h2>
-      <p className='text-gray-300 leading-relaxed mb-6'>
+      <p className='text-gray-800 leading-relaxed mb-6 dark:text-gray-300'>
         My coding journey started three years ago when I began teaching myself
         web development. Recently, I completed an intensive{' '}
         <span className='font-semibold text-blue-400'>
