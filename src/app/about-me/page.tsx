@@ -38,7 +38,7 @@ const AboutPage = () => {
         <h3 className='text-xl font-semibold text-blue-400'>
           🍪 Cookie Clicker Game
         </h3>
-        <p className='text-gray-300 mt-2'>
+        <p className='text-gray-800 mt-2 dark:text-gray-300'>
           A fun, interactive clicker game where users earn cookies and unlock
           upgrades.
         </p>
