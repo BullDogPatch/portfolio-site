@@ -15,7 +15,9 @@ const Navbar = () => {
       <div className='max-w-5xl mx-auto px-4'>
         <div className='flex justify-between items-center h-16'>
           <Link href='/' className='font-mono text-xl font-bold'>
-            <TypingAnimation>Craig Clayton</TypingAnimation>
+            <TypingAnimation className='text-white'>
+              Craig Clayton
+            </TypingAnimation>
           </Link>
 
           {/* Desktop Links */}
