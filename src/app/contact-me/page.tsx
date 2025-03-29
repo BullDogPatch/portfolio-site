@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -7,7 +8,11 @@ export const metadata: Metadata = {
 };
 
 const ContactPage = () => {
-  return <div className=''>ContactPage</div>;
+  return (
+    <div className='w-1/2 mx-auto h-[90vh] mt-10 flex justify-center items-center'>
+      <ContactForm />
+    </div>
+  );
 };
 
 export default ContactPage;
