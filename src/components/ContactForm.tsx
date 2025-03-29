@@ -5,10 +5,11 @@ import { useRef, useState } from 'react';
 const ContactForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const [isSending, setIsSending] = useState<boolean>(false);
-  const onSubmit = async (event: any) => {
+
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setIsSending(true);
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);
 
     formData.append('access_key', '584dd52f-934e-4dfc-a8ce-dcf16bc25d40');
 
