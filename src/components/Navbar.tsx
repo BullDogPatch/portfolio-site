@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import NavLink from './NavLink';
 import Link from 'next/link';
+import { TypingAnimation } from './magicui/typing-animation';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,9 @@ const Navbar = () => {
       <div className='max-w-5xl mx-auto px-4'>
         <div className='flex justify-between items-center h-16'>
           <Link href='/' className='font-mono text-xl font-bold'>
-            Craig Clayton
+            <TypingAnimation className='text-white'>
+              Craig Clayton
+            </TypingAnimation>
           </Link>
 
           {/* Desktop Links */}
